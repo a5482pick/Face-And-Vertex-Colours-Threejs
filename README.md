@@ -1,0 +1,1 @@
+__VertexColors.html__ is a simple demonstration of how to construct a geometry using your own specified vertices: two triangles are fitted together to make a square, and colours, lighting and mouse controls have been added. 
