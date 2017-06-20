@@ -61,8 +61,8 @@
             //alert(geometry.vertices[0].x);               //(Demonstrates how to re-access the values.)
 
             //Construct a face from the 3 vertices.
-            face[0] = new THREE.Face3(0, 1, 2);
-            face[1] = new THREE.Face3(3, 0, 2);
+            face.push(new THREE.Face3(0, 1, 2));
+            face.push(new THREE.Face3(3, 0, 2));
 
             // Assign the colors to the vertices of the face.  Deactivate this block if using face colors instead.
             face[0].vertexColors[0] = new THREE.Color(0xff0000); 
